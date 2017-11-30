@@ -1,0 +1,151 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.UserClassifier
+Relation:     fer2017-happy-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.GainRatioAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.GainRatioAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 5
+Instances:    28709
+Attributes:   6
+              pixel1045
+              pixel924
+              pixel281
+              pixel709
+              pixel565
+              is_happy
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+
+Split on pixel1045 AND pixel924 (In Set): N1 NotHappy(37.0/1.0)
+Split on pixel1045 AND pixel924 (Not in Set)
+|   Split on pixel1045 AND pixel924 (In Set): N3 NotHappy(33.0/1.0)
+|   Split on pixel1045 AND pixel924 (Not in Set)
+|   |   Split on pixel1045 AND pixel924 (In Set): N5 NotHappy(25.0/3.0)
+|   |   Split on pixel1045 AND pixel924 (Not in Set)
+|   |   |   Split on pixel1045 AND pixel1045 (In Set): N7 NotHappy(3614.0/889.0)
+|   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N9 NotHappy(1040.0/248.0)
+|   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N11 NotHappy(871.0/220.0)
+|   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N13 NotHappy(653.0/151.0)
+|   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N15 NotHappy(200.0/50.0)
+|   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N17 NotHappy(1062.0/275.0)
+|   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N19 NotHappy(1240.0/361.0)
+|   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N21 NotHappy(1663.0/384.0)
+|   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N23 NotHappy(136.0/32.0)
+|   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N25 NotHappy(2864.0/770.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N27 NotHappy(282.0/45.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N29 NotHappy(1212.0/313.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N31 NotHappy(962.0/243.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N33 NotHappy(304.0/61.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N35 NotHappy(142.0/39.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (In Set): N37 NotHappy(771.0/190.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel924 AND pixel924 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (In Set): N39 NotHappy(1551.0/411.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (In Set): N41 NotHappy(3206.0/802.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (In Set): N43 NotHappy(600.0/144.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (In Set): N45 NotHappy(508.0/118.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel281 AND pixel281 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel709 AND pixel709 (In Set): N47 NotHappy(1879.0/450.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel709 AND pixel709 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel709 AND pixel709 (In Set): N49 NotHappy(403.0/114.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel709 AND pixel709 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N51 NotHappy(704.0/164.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N53 NotHappy(552.0/145.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N55 NotHappy(436.0/118.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N57 NotHappy(258.0/60.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N59 NotHappy(698.0/178.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N61 NotHappy(72.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N63 NotHappy(70.0/25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N65 NotHappy(153.0/38.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (In Set): N67 NotHappy(56.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel565 AND pixel565 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N69 NotHappy(39.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N71 NotHappy(58.0/20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N73 NotHappy(104.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N75 NotHappy(50.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N77 Happy(3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N79 NotHappy(17.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N81 Happy(11.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N83 NotHappy(25.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N85 NotHappy(63.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N87 NotHappy(26.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (In Set): N89 NotHappy(37.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on pixel1045 AND pixel1045 (Not in Set): N90 Happy(19.0/8.0)
+Attribute mappings:
+
+Model attributes     	    Incoming attributes
+---------------------	    ----------------
+(numeric) pixel1045  	--> 1046 (numeric) pixel1045
+(numeric) pixel924   	--> 925 (numeric) pixel924
+(numeric) pixel281   	--> 282 (numeric) pixel281
+(numeric) pixel709   	--> 710 (numeric) pixel709
+(numeric) pixel565   	--> 566 (numeric) pixel565
+(nominal) is_happy   	--> 2305 (nominal) is_happy
+
+
+Time taken to build model: 398.05 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 2.3 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        5394               75.1463 %
+Incorrectly Classified Instances      1784               24.8537 %
+Kappa statistic                         -0.0016
+Mean absolute error                      0.3741
+Root mean squared error                  0.432 
+Relative absolute error                 99.9664 %
+Root relative squared error            100.1353 %
+Total Number of Instances             7178     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.001    0.002    0.143      0.001    0.002      -0.011   0.512     0.252     Happy
+                 0.998    0.999    0.753      0.998    0.858      -0.011   0.512     0.761     NotHappy
+Weighted Avg.    0.751    0.753    0.602      0.751    0.647      -0.011   0.512     0.635     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    2 1772 |    a = Happy
+   12 5392 |    b = NotHappy
+

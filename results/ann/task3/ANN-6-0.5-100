@@ -1,0 +1,38 @@
+=== Summary ===
+
+Correctly Classified Instances        7672               26.7233 %
+Incorrectly Classified Instances     21037               73.2767 %
+Kappa statistic                          0.0785
+K&B Relative Info Score             228073.2523 %
+K&B Information Score                 5955.0178 bits      0.2074 bits/instance
+Class complexity | order 0           74952.4118 bits      2.6108 bits/instance
+Class complexity | scheme            74079.316  bits      2.5804 bits/instance
+Complexity improvement     (Sf)        873.0958 bits      0.0304 bits/instance
+Mean absolute error                      0.2315
+Root mean squared error                  0.342 
+Relative absolute error                 98.0383 %
+Root relative squared error             99.5195 %
+Total Number of Instances            28709     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.020    0.013    0.197      0.020    0.037      0.020    0.531     0.155     Angry
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.531     0.017     Disgust
+                 0.062    0.051    0.168      0.062    0.090      0.017    0.529     0.157     Fear
+                 0.620    0.487    0.300      0.620    0.404      0.116    0.591     0.310     Happy
+                 0.336    0.222    0.235      0.336    0.276      0.100    0.601     0.223     Sad
+                 0.235    0.073    0.286      0.235    0.258      0.177    0.705     0.229     Surprise
+                 0.099    0.077    0.212      0.099    0.135      0.030    0.555     0.199     Neutral
+Weighted Avg.    0.267    0.190    0.234      0.267    0.218      0.076    0.581     0.219     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g   <-- classified as
+   81    0  169 2155 1026  286  278 |    a = Angry
+    6    0   17  242   99   35   37 |    b = Disgust
+   64    0  253 1996  968  457  359 |    c = Fear
+   92    0  293 4476 1413  495  446 |    d = Happy
+  107    0  196 2243 1624  219  441 |    e = Sad
+   15    0  291 1414  431  745  275 |    f = Surprise
+   46    0  290 2409 1360  367  493 |    g = Neutral

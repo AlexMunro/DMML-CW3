@@ -1,0 +1,28 @@
+=== Summary ===
+
+Correctly Classified Instances       21492               74.8615 %
+Incorrectly Classified Instances      7217               25.1385 %
+Kappa statistic                          0.0014
+K&B Relative Info Score             -44814.2344 %
+K&B Information Score                 -364.5201 bits     -0.0127 bits/instance
+Class complexity | order 0           23350.626  bits      0.8134 bits/instance
+Class complexity | scheme            33727.811  bits      1.1748 bits/instance
+Complexity improvement     (Sf)     -10377.185  bits     -0.3615 bits/instance
+Mean absolute error                      0.3694
+Root mean squared error                  0.4305
+Relative absolute error                 98.1582 %
+Root relative squared error             99.2468 %
+Total Number of Instances            28709     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.002    0.001    0.458      0.002    0.003      0.014    0.579     0.297     Happy
+                 0.999    0.998    0.749      0.999    0.856      0.014    0.579     0.794     NotHappy
+Weighted Avg.    0.749    0.748    0.676      0.749    0.642      0.014    0.579     0.670     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+    11  7204 |     a = Happy
+    13 21481 |     b = NotHappy
